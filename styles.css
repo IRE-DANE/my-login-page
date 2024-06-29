@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Container for Centering Content */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #e2001a;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 28px;
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Main Content Styles */
+main {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.account-summary, .inheritance-account, .additional-accounts {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.balance-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance-main h3 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.balance-main .status {
+    color: red;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e2001a;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #b00016;
+}
+
+.account-details {
+    margin-top: 10px;
+}
+
+.account-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.account-details span {
+    font-weight: bold;
+}
+
+.details-toggle {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.details-toggle:hover {
+    background-color: #0056b3;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images .image {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.images .image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #e2001a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.images .image p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #e2001a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
+
+footer .options p, footer .additional-links p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+}
